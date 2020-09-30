@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* styles for screens larger than 801px wide */
+@media screen and (min-width: 801px) {
+body {
+     text-align: center;
+     background-color: #D3D3D3;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 700px;
+	max-width: 1000px;
+	padding: 3em;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: black;
+    height: 130px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content {
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+	-moz-column-gap:40px; /* Firefox */
+	-webkit-column-gap:40px; /* Safari and Chrome */
+	column-gap:40px;
+        text-align: center;
+}
+
+#footer {
+	
+}
+}
+
+/* styles for screens up to 800px wide */
+@media screen and (max-width: 800px) {
+  
+#wrapper {
+	width: 80%;
+	min-width: 400px;
+	max-width: 750px;
+	padding: 3em;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: maroon;
+    height: 130px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content {
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:40px; /* Firefox */
+	-webkit-column-gap:40px; /* Safari and Chrome */
+	column-gap:40px;
+        text-align: center;
+}
+
+}
+
+/* styles for screens up to 480px wide */
+
+@media screen and (max-width: 480px) {
+  
+#wrapper {
+	width: 80%;
+	min-width: 200px;
+	max-width: 400px;
+	padding: 2em;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: black;
+    height: 130px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content {
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+        text-align: center;
+}
+
+}
