@@ -68,15 +68,15 @@ h2 {
      margin: 0 auto;
 }
 
+  img {
+  width: 100%;
+  height: auto;
+}
 
 
 }
 
 @media screen and (max-width: 500px) {
-
-img.responsive { width: 100px; }
-}
-img.responsive { height: auto; }
 
 body {
      margin-left: 0px;
@@ -91,3 +91,9 @@ h2 {
      text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+}
